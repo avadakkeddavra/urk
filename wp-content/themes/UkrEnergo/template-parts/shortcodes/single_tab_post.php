@@ -1,0 +1,1 @@
+ <li><a class="<?php if($atts['active'] == true): echo 'active'; endif;?>" href="#<?php echo $atts['id'] ?>"><?php echo $atts['title'] ?></a></li>
